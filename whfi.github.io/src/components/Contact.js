@@ -16,13 +16,13 @@ function Contact() {
           <div className="row center white-text">
             <h4>Discover More</h4>
             <div className="col s8 offset-s2 learn-more-link">
-            <a href="mailto:omnireal@gmail.com" className="btn waves-effect waves-light brown accent-4 animated bounceIn slow" target="_blank" rel="noreferrer">
+            <a href="mailto:omnireal@gmail.com" className="btn brown accent-4" target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faEnvelope} /> Mail
               </a>
-              <a href="https://linkedin.com/in/whfi" className="btn waves-effect waves-light brown accent-4 animated bounceIn slow" target="_blank" rel="noreferrer">
+              <a href="https://linkedin.com/in/whfi" className="btn brown accent-4" target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faLinkedin} />  LinkedIn
               </a>
-              <a href="./CV_Wei_Huang.pdf" className="btn waves-effect waves-light brown darken-4 animated bounceIn slow" target="_blank">
+              <a href="./CV_Wei_Huang.pdf" className="btn brown darken-4" target="_blank">
                 <FontAwesomeIcon icon={faFile} /> CV
               </a>
             </div>
