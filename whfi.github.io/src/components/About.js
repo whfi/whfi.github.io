@@ -22,34 +22,34 @@ const About = () => {
 
         <div className="col s12 m4">
           <div className="card black animated">
-            <a href="#" rel="noopener noreferrer">
+            <div className="card-block-0">
               <div className="card-image" id="card-image0">
                 <div className="overlay"></div>
                 <span className="card-title white-text">Building a Seamless User-Friendly Experience</span>
               </div>
-            </a>
+            </div>
           </div>
         </div>
 
         <div className="col s12 m4">
           <div className="card black animated">
-            <a href="#" rel="noopener noreferrer">
+            <div className="card-block-1">
               <div className="card-image" id="card-image1">
                 <div className="overlay"></div>
                 <span className="card-title white-text">Innovating E-commerce Features and Upselling Strategies</span>
               </div>
-            </a>
+            </div>
           </div>
         </div>
 
         <div className="col s12 m4">
           <div className="card black animated">
-            <a href="#" rel="noopener noreferrer">
+            <div className="card-block-2">
               <div className="card-image" id="card-image2">
                 <div className="overlay"></div>
                 <span className="card-title white-text">Enhancing Performance and Accessibility Standards</span>
               </div>
-            </a>
+            </div>
           </div>
         </div>
 

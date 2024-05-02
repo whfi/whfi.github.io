@@ -32,10 +32,6 @@ code {
   border-radius: 10px;
 }
 
-.section-about .row a {
-  cursor: default;
-}
-
 .section-about .card-image {
   position: relative;
   height: 200px;
@@ -96,7 +92,6 @@ code {
   top: 22%;
 }
 
-/*Skills*/
 .parallax-container {
   max-height: 300px;
 }
