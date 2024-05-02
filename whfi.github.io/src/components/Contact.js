@@ -1,5 +1,5 @@
 import React from 'react';
-import pizzaImage from './pizza.jpg';
+import pizzaImage from './img/pizza.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faFile } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
