@@ -1,5 +1,5 @@
 import React from 'react';
-import countrysideImage from './pizza.jpg';
+import pizzaImage from './pizza.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faFile } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -8,7 +8,7 @@ function Contact() {
   return (
     <section className="section section-learn-more parallax-container scrollspy" id="more-info">
       <div className="parallax">
-        <img src={countrysideImage} alt="County side view" css={{ opacity: 1, transform: 'translate3d(-50%, 493.307px, 0px)' }} />
+        <img src={pizzaImage} alt="County side view" css={{ opacity: 1, transform: 'translate3d(-50%, 493.307px, 0px)' }} />
         <div className="overlay"></div>
       </div>
       <div id="learn-more-content">
