@@ -8,7 +8,7 @@ function Contact() {
   return (
     <section className="section section-learn-more parallax-container scrollspy" id="more-info">
       <div className="parallax">
-        <img src={pizzaImage} alt="County side view" css={{ opacity: 1, transform: 'translate3d(-50%, 493.307px, 0px)' }} />
+        <img src={pizzaImage} alt="Pizza view" css={{ opacity: 1, transform: 'translate3d(-50%, 493.307px, 0px)' }} />
         <div className="overlay"></div>
       </div>
       <div id="learn-more-content">
