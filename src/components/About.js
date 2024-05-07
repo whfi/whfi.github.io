@@ -48,7 +48,7 @@ const About = () => {
       </div>
 
         <h6>Here's a compilation of technologies I've gained experience with throughout my industry tenure. </h6>
-        <h6>My recent focus has been on React.js, TypeScript, Liquid, Next.js, Ruby on Rails, GraphQL APIs, REST APIs, SCSS, Github Actions, Contentful CMS, and Serverless Functions.</h6>
+        <h6>My recent focus has been on React.js, TypeScript, Liquid, Next.js, Ruby on Rails, GraphQL APIs, REST APIs, SCSS, A/B Testing, Contentful CMS, and Serverless Functions.</h6>
 
         <div className="row center">
           <div className="col s12 m4">
