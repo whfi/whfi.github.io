@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import pizzaImage from './img/pizza.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import M from 'materialize-css/dist/js/materialize.min.js';
 
 function Contact() {
+  useEffect(() => {
+    const scrollSpy = document.querySelectorAll('.scrollspy');
+    M.AutoInit();
+    M.ScrollSpy.init(scrollSpy, {});
+  }, []);
+
   return (
     <section className="section section-learn-more parallax-container scrollspy" id="more-info">
       <div className="parallax">
@@ -22,7 +29,7 @@ function Contact() {
               <a href="https://linkedin.com/in/whfi" className="btn brown accent-4" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
               </a>
-              <a href="mailto:omnireal@gmail.com" className="btn brown darken-4" target="_blank">
+              <a href="mailto:omnireal@gmail.com" className="btn brown darken-4" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faEnvelope} /> Mail
               </a>
             </div>
