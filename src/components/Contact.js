@@ -1,8 +1,8 @@
 import React from 'react';
 import pizzaImage from './img/pizza.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faFile } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function Contact() {
   return (
@@ -16,14 +16,14 @@ function Contact() {
           <div className="row center white-text">
             <h4>Discover More</h4>
             <div className="col s8 offset-s2 learn-more-link">
-            <a href="mailto:omnireal@gmail.com" className="btn brown accent-4" target="_blank" rel="noreferrer">
-              <FontAwesomeIcon icon={faEnvelope} /> Mail
+              <a href="https://github.com/whfi?tab=repositories" className="btn brown accent-4" target="_blank" rel="noreferrer">
+                <FontAwesomeIcon icon={faGithub} /> Github
               </a>
               <a href="https://linkedin.com/in/whfi" className="btn brown accent-4" target="_blank" rel="noreferrer">
-              <FontAwesomeIcon icon={faLinkedin} />  LinkedIn
+                <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
               </a>
-              <a href="./CV_Wei_Huang.pdf" className="btn brown darken-4" target="_blank">
-                <FontAwesomeIcon icon={faFile} /> CV
+              <a href="mailto:omnireal@gmail.com" className="btn brown darken-4" target="_blank">
+                <FontAwesomeIcon icon={faEnvelope} /> Mail
               </a>
             </div>
           </div>
