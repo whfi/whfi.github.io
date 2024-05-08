@@ -50,7 +50,7 @@ const About = () => {
         <h6>Here's a compilation of technologies I've gained experience with throughout my industry tenure. </h6>
         <h6>My recent focus has been on React.js, TypeScript, Liquid, Next.js, Ruby on Rails, GraphQL APIs, REST APIs, SCSS, A/B Testing, Contentful CMS, and Serverless Functions.</h6>
 
-        <div className="row center">
+        <div className="row center row-skills">
           <div className="col s12 m4">
             <div className="card black">
               <h4>APIs</h4>
@@ -58,6 +58,16 @@ const About = () => {
                 <li>GraphQL</li>
                 <li>Postman</li>
                 <li>REST</li>
+              </ul>
+            </div>
+          </div>
+          <div className="col s12 m4">
+            <div className="card black">
+              <h4>CI/CD</h4>
+              <ul>
+                <li>CircleCI</li>
+                <li>GitHub Actions</li>
+                <li>GitLab CI/CD</li>
               </ul>
             </div>
           </div>
@@ -116,6 +126,14 @@ const About = () => {
           </div>
           <div className="col s12 m4">
             <div className="card black">
+              <h4>Monitoring</h4>
+              <ul>
+                <li>Sentry</li>
+              </ul>
+            </div>
+          </div>
+          <div className="col s12 m4">
+            <div className="card black">
               <h4>Styling</h4>
               <ul>
                 <li>Boostrap</li>
@@ -129,12 +147,21 @@ const About = () => {
           </div>
           <div className="col s12 m4">
             <div className="card black">
+              <h4>Testing</h4>
+              <ul>
+                <li>Cypress</li>
+                <li>Jest / Enzyme</li>
+                <li>Jest</li>
+              </ul>
+            </div>
+          </div>
+          <div className="col s12 m4">
+            <div className="card black">
               <h4>Third Party</h4>
               <ul>
                 <li>Auth0</li>
                 <li>Contentful</li>
                 <li>GeoTargetly</li>
-                <li>Google Analytics</li>
                 <li>Google Tag Manager</li>
                 <li>Klaviyo</li>
                 <li>Iterable</li>

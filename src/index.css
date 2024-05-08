@@ -23,6 +23,10 @@ code {
   text-shadow: 1px 1px 1px rgba(193,193,193,0.46);
 }
 
+.section-about .row-skills .col {
+  min-height: 250px;
+}
+
 .section-about li {
   font-size: 1rem;
 }
