@@ -1,5 +1,6 @@
 import React from 'react';
 import GomokuImage from './img/gomoku.jpg';
+import OoniImage from './img/ooni.png';
 
 const Project = () => {
   return (
@@ -13,6 +14,22 @@ const Project = () => {
           Check out the details of my projects on my <span className="light-blue-text text-accent-4"><a href="https://github.com/whfi?tab=repositories" target="_blank" id="github-repo-link" rel="noreferrer">GitHub</a></span> Profile.
         </h6>
         <div className="row">
+
+        <div className="col s12 m6">
+            <div className="card">
+              <a href="https://ooni.com">
+                <div className="card-image waves-effect waves-block waves-light">
+                  <img className="responsive-img activator" src={OoniImage} alt="Ooni Pizza Ovens" />
+                </div>
+                <div className="card-action">
+                  <p className="activator valign-wrapper">
+                    <span className="grey-text text-darken-1">Delivery features using React, TypeScript, and Liquid, ensuring an outstanding online shopping experience for the joy of homemade pizzas. </span>
+                    <span className="new badge blue right activator" data-badge-caption="Shopify"></span>
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
 
           <div className="col s12 m6">
             <div className="card">

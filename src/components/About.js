@@ -126,9 +126,13 @@ const About = () => {
           </div>
           <div className="col s12 m4">
             <div className="card black">
-              <h4>Monitoring</h4>
+              <h4>Methodologies & Tools</h4>
               <ul>
-                <li>Sentry</li>
+                <li>Agile</li>
+                <li>Miro</li>
+                <li>Jira</li>
+                <li>Kanban</li>
+                <li>Notion</li>
               </ul>
             </div>
           </div>
