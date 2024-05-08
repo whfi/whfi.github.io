@@ -20,6 +20,7 @@ const Project = () => {
               <a href="https://ooni.com">
                 <div className="card-image waves-effect waves-block waves-light">
                   <img className="responsive-img activator" src={OoniImage} alt="Ooni Pizza Ovens" />
+                  <span className="card-title activator">Ooni Pizza Ovens</span>
                 </div>
                 <div className="card-action">
                   <p className="activator valign-wrapper">
